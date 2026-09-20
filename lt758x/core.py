@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """LT758x SPI 传输层
-协议(锐显M-3例程/乐升LT758x一致):
+LT758x SPI 协议:
   写寄存器地址: CS低 -> 0x00 + reg
   写数据:       CS低 -> 0x80 + data(可连续突发, 0x80前缀一次)
   读寄存器:     先写地址, CS低 -> 0xC0 + 读一字节

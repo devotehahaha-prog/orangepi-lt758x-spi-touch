@@ -18,7 +18,7 @@ GRAY = rgb(40, 40, 46)
 def self_test(d, t):
     d.clear(rgb(18, 22, 30))
     d.rect(0, 0, d.w, 70, BLUE, 3)
-    t.text(20, 14, "Orange Pi 5 Pro + M70-3", size=32, color=WHITE, bg=rgb(50, 90, 220))
+    t.text(20, 14, "Orange Pi 5 Pro + LT758x", size=32, color=WHITE, bg=rgb(50, 90, 220))
     t.text(20, 80, "LT758x 驱动框架自检画面", size=28, color=rgb(120, 220, 120), bg=rgb(18, 22, 30))
     # 色块
     colors = [RED, GREEN, BLUE, YELLOW]

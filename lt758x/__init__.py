@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""LT758x SPI 显示/触摸驱动包 (锐显 M70-3 @ Orange Pi 5 Pro)
+"""LT758x SPI 显示/触摸驱动包 (800×480 @ Orange Pi 5 Pro)
 
 快速上手:
     from lt758x import Panel, Draw, Text, GT911, rgb

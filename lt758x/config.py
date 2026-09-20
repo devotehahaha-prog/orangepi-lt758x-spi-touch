@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""硬件配置 —— 全部引脚/时序/色深参数的唯一来源 (M70-3 @ Orange Pi 5 Pro)"""
+"""硬件配置 —— 全部引脚/时序/色深参数的唯一来源 (800×480 @ Orange Pi 5 Pro)"""
 
 # ---- SPI ----
 SPI_BUS, SPI_CS = 0, 0
@@ -12,7 +12,7 @@ RST_WPI = "13"                   # 物理22脚 GPIO1_B0 -> 模块 RST
 TOUCH_RST_WPI = "8"              # 物理15脚 GPIO1_B6 -> 触摸 RST (T-CS)
 TOUCH_INT_WPI = "7"              # 物理13脚 GPIO4_B3 -> 触摸 INT
 
-# ---- 面板 (锐显 M70-3, 800x480@60Hz, 官方例程时序) ----
+# ---- 面板 (LT758x, 800x480@60Hz, 参考例程时序) ----
 LCD_W, LCD_H = 800, 480
 HBPD, HFPD, HSPW = 46, 210, 20   # 水平后廊/前廊/同步宽
 VBPD, VFPD, VSPW = 23, 22, 3     # 垂直后廊/前廊/同步宽

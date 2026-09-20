@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """LT758x 面板控制: 复位/PLL/SDRAM/时序/窗口/背光/显示开关
-初始化流程移植自锐显 M-3 例程 LCD_800x480_Init, 已在板上验证通过
+初始化流程参考 LCD_800x480_Init, 已在板上验证通过
 """
 import subprocess
 import time
